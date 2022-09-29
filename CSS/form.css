@@ -1,0 +1,29 @@
+input[type=email],input[type=tel],input[type=text],input[type=url],select,textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 8px 0;
+    padding: 12px 20px;
+    width: 100%
+}
+
+button[type=reset],button[type=submit] {
+    background-color: #4caf50;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    margin: 8px 0;
+    padding: 14px 20px;
+    width: 100%
+}
+
+button[type=submit]:hover {
+    background-color: #45a049
+}
+
+div {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 20px
+}

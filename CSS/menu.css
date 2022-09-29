@@ -1,0 +1,60 @@
+div#menuhorizontal {
+    background-color: green
+}
+
+div#menuhorizontal ul {
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0
+}
+
+div#menuhorizontal li {
+    float: left
+}
+
+.dropbtn,div#menuhorizontal li a {
+    color: #fff;
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none
+}
+
+.dropdown:hover .dropbtn,div#menuhorizontal li a:hover {
+    background-color: red
+}
+
+div#menuhorizontal li.dropdown {
+    display: inline-block
+}
+
+div#menuhorizontal .dropdown-content {
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.2);
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    z-index: 1
+}
+
+div#menuhorizontal .dropdown-content a {
+    color: #000;
+    display: block;
+    padding: 12px 16px;
+    text-align: left;
+    text-decoration: none
+}
+
+div#menuhorizontal .dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+div#menuhorizontal .dropdown:hover .dropdown-content {
+    display: block
+}
+
+div#menuhorizontal li#about {
+    float: right
+}
